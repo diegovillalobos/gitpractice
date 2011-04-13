@@ -7,6 +7,8 @@ body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li {
 	position: relative;
 }
 
+
+
 /* Begin Styling */
 
 body {
@@ -14,7 +16,7 @@ body {
 	font-family: "HelveticaNeueLT Pro 45 Lt", Helvetica, Arial, Sans-Serif;
 	font-size: 16px;
 	width: 970px;
-	margin: 7px auto;
+	margin: 0 auto;
 }
 
 
@@ -22,7 +24,6 @@ body {
 
 #navigation {
   text-transform: capitalize;
-  position: relative;
 }
 
 #navigation li#name a{
@@ -31,7 +32,7 @@ body {
   font-family: "HelveticaNeueLT Pro 35 Lt", Sans-Serif;
   font-weight: lighter;
   color: #fff;
-  padding: 17px;
+  padding: 15px;
 }
 
 #navigation li#name a:hover{
@@ -43,6 +44,7 @@ body {
 #navigation li {
   list-style: none;
   display: inline;
+  font-size: .9em;
 }
 
 #navigation img {
@@ -92,58 +94,49 @@ body {
 /* Sidebar */
 
 #sidebar {
-	margin-top: 115px;
-	margin-right: 90px;
-	}
-	
-#sideline {
-	margin-left: 730px;
-	margin-top: 270px;
-	}
-	
-#menus , #drinks , #reserve  {
+	width: 200px;
+	position: relative;
+	top: 160px;
+	right: 40px;
 	float: right;
 }
-	
-#menus {	
-	list-style-type: none;
-	margin-top: 280px;		
+
+#sideline {
+	float: left;
+	margin-top: -20px;
+	margin-right: 25px;
+}
+		
+#menu, #drinks, #reserve {
+	margin-top: 20px;
 }
 
-	
-#drinks {
-	list-style-type: none;
-	margin-top: 420px;
-	margin-right: -110px;
-}
-	
-#reserve {
-	list-style-type: none;
-	margin-top: 560px;
-	margin-right: -145px;
-}
+h3 {
 
-#menus h5, #drinks h5, #reserve h5 {
-	font-family: "HelveticaNeueLT Pro 55 LT", sans-serif;
 	font-size: 1em;
-	margin-right: 50px;
-	list-style-type: none;
-	color: #444444;
+	color: #444;
 	line-height: 40px;
 	letter-spacing: 1px;
-	font-weight: light;
+	font-weight: bold;
 }
 	
 
-#categories li:before, #categories1 li:before, #categories2 li:before {
+#categories li:before,
+#categories1 li:before,
+#categories2 li:before {
 	content: "\00BB";
 	color: #b40033;
 }
 	
-#categories, #categories1, #categories2, #categories a, #categories1 a, #categories2 a {
+#categories,
+#categories1,
+#categories2,
+#categories a,
+#categories1 a,
+#categories2 a {
 	font-family: "HelveticaNeueLT Pro 45", sans-serif;
 	font-size: .75em;
-	color: #777777;
+	color: #777;
 	line-height: 17px;
 	list-style-type: none;
 	text-decoration: none;
@@ -165,60 +158,53 @@ body {
 
 #main_display a img {
 	position: relative;
-	top: -600px;
-	left: -15px;
+	top: 80px;
+	left: -12px;
 	border: none;
 }
 
-<<<<<<< Updated upstream
-/*----------------------------------------------------------------------------------------------------*/
+#main_display ul li {
+	opacity: 0.3;
+	display: inline;
+	padding: 10px;
+	position: relative;
+	left: 90px;
+}
 
+#main_display li:hover {
+	opacity: 100;
+}
 
+#main_display li.selected_img {
+	opacity: 100;
+}
+
+#main_display li.inactive_arrow {
+	opacity: .3;
+}
+	
 /* Content */
 
 #content {
-	margin-top: -840px;
-	}
+	margin-top: 150px;
+	-moz-column-count: 2;
+	-webkit-column-count: 2; 
+	column-count: 2;
+	width: 670px;
+}
 
-#about {
-	font-family: "HelveticaNeueLT Pro 45 LT", sans-serif;
-	margin-top: 400px;
-	width: 300px;
-	}
-	
-#about h2 {
-	font-family: "HelveticaNeueLT Pro 55 LT", sans-serif;
+h2 {
+	font-family: "HelveticaNeueLT Pro 55 RM", sans-serif;
 	color: #b40033;
 	font-size: 1.5em;
-	font-weight: lighter;
+	font-weight: normal;
 	line-height: 2.25em;
-	}
-	
-#about p {
-	color: #333333;
-	font-family: "HelveticaNeueLT Pro 45 LT", sans-serif;
-	font-size: .75em;
-	}
+}
 
-#company {
-	font-family: "HelveticaNeueLT Pro 45 LT", sans-serif;
-	margin-top: -193px;
-	margin-left: 350px;
+p {
+	color: #333;
+	font-size: .8em;
+	letter-spacing: .05em;
+	line-height: 1.3em;
 	width: 300px;
-	}
-	
-#company h2 {
-	font-family: "HelveticaNeueLT Pro 55 LT", sans-serif;
-	color: #b40033;
-	font-size: 1.5em;
-	font-weight: lighter;
-	line-height: 2.25em;
-	}
-	
-#company p {
-	color: #333333;
-	font-family: "HelveticaNeueLT Pro 45 LT", sans-serif;
-	font-size: .75em;
-	}
-=======
->>>>>>> Stashed changes
+}
