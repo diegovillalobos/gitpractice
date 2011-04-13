@@ -89,6 +89,16 @@ body {
 
 
 /* Sidebar */
+
+#sidebar {
+	margin-top: 115px;
+	margin-right: 90px;
+	}
+	
+#sideline {
+	margin-left: 730px;
+	margin-top: 270px;
+	}
 	
 #menus , #drinks , #reserve  {
 	float: right;
@@ -150,3 +160,51 @@ body {
 	}	
 
 /*----------------------------------------------------------------------------------------------------*/
+
+
+/* Content */
+
+#content {
+	margin-top: -840px;
+	}
+
+#about {
+	font-family: "HelveticaNeueLT Pro 45 LT", sans-serif;
+	margin-top: 400px;
+	width: 300px;
+	}
+	
+#about h2 {
+	font-family: "HelveticaNeueLT Pro 55 LT", sans-serif;
+	color: #b40033;
+	font-size: 1.5em;
+	font-weight: lighter;
+	line-height: 2.25em;
+	}
+	
+#about p {
+	color: #333333;
+	font-family: "HelveticaNeueLT Pro 45 LT", sans-serif;
+	font-size: .75em;
+	}
+
+#company {
+	font-family: "HelveticaNeueLT Pro 45 LT", sans-serif;
+	margin-top: -193px;
+	margin-left: 350px;
+	width: 300px;
+	}
+	
+#company h2 {
+	font-family: "HelveticaNeueLT Pro 55 LT", sans-serif;
+	color: #b40033;
+	font-size: 1.5em;
+	font-weight: lighter;
+	line-height: 2.25em;
+	}
+	
+#company p {
+	color: #333333;
+	font-family: "HelveticaNeueLT Pro 45 LT", sans-serif;
+	font-size: .75em;
+	}
