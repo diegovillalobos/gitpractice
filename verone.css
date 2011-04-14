@@ -208,3 +208,51 @@ p {
 	line-height: 1.3em;
 	width: 300px;
 }
+
+
+/* Portfolio */
+
+#mainpic {
+	position: relative;
+	top: 80px;	
+}
+
+#portfolio  {
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 2.25em;
+	top: 100px;
+}
+
+#portfolio h2 {
+	color: #444;	
+}
+
+#portfolio ul li {
+	display: inline;	
+	margin-right: 15px;
+}
+
+ul li h3, h4 {
+	font-size: 1em;
+	display: inline;
+	word-spacing: 200px;	
+}
+
+ul li h3 {
+	color: #b40033;
+	text-indent: 40px;	
+}
+
+ul li a  {
+	text-decoration: none;	
+	color: #999999;
+}
+
+ul li a:hover {
+	color: #444444;	
+}
+
+
+
+
