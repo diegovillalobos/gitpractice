@@ -190,7 +190,8 @@ h3 {
 	-moz-column-count: 2;
 	-webkit-column-count: 2; 
 	column-count: 2;
-	width: 670px;
+	width: 690px;
+	background-color: red;
 }
 
 h2 {
@@ -213,44 +214,42 @@ p {
 /* Portfolio */
 
 #mainpic {
-	position: relative;
-	top: 80px;	
+	position: relative;	
 }
 
 #portfolio  {
 	font-size: 1em;
 	font-weight: normal;
 	line-height: 2.25em;
-	top: 100px;
+	top: 130px;
+	font-family: "HelveticaNeueLT Pro 55 RM", sans-serif;
 }
 
 #portfolio h2 {
 	color: #444;	
 }
+#portfolio ul {
+	top: 10px;	
+}
 
-#portfolio ul li {
+#content #portfolio ul li {
 	display: inline;	
 	margin-right: 15px;
+	border: none;
 }
 
-ul li h3, h4 {
-	font-size: 1em;
-	display: inline;
-	word-spacing: 200px;	
-}
-
-ul li h3 {
-	color: #b40033;
-	text-indent: 40px;	
-}
-
-ul li a  {
+#portfolio ul li a {
+	opacity: 0.3;	
+	border: none;
 	text-decoration: none;	
-	color: #999999;
 }
 
-ul li a:hover {
-	color: #444444;	
+#portfolio ul li a:hover {
+	opacity: 100;
+}
+
+#portfolio ul li a img {
+	border: none;	
 }
 
 
